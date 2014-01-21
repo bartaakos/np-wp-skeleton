@@ -93,7 +93,7 @@ Now you can run <code>phing</code> again and it should work.
 
 ### THE MAGIC
 
-The purpose of this project is that there is a very important option that **MUST** be set for this environment:
+The main purpose of this project is that there is a very important option that **MUST** be set for this environment:
 
 <pre>
 mysql> select * from wp_options where option_name IN ('siteurl', 'home');

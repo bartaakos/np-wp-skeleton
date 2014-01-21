@@ -48,7 +48,7 @@ Let's give it executable permissions.
 
 <code>chmod +x wp-cli.phar</code>
 
-In order to user just <code>wp</code>:
+In order to use just <code>wp</code>:
 
 <code>mv wp-cli.phar /usr/bin/wp</code>
 

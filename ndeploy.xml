@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="/usr/share/php5/PEAR/data/phing/etc/phing-grammar.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0" ?>
+
+<project name="oxox" default="oxox.init">
+
+    <target name="oxox.init">
+        <phingcall target="oxox.symlinks" />
+    </target>
+
+    <target name="oxox.symlinks">
+        <symlink target="${application.deploydir}/wp-config.php" link="${shared.basedir}/wp/wp-config.php" overwrite="true"/>
+    </target>
+
+</project>

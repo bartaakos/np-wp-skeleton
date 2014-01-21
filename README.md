@@ -89,6 +89,8 @@ Downloading WordPress with wp-cli using some attributes:
 
 <code>example@server:~/shared$ wp core download --path=wp --version=3.8 --locale=hu_HU</code>
 
+(You can use submodule for wp as well just like Mark Jaquith did)
+
 Now you can run <code>phing</code> again and it should work.
 
 ### THE MAGIC

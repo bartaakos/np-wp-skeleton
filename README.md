@@ -109,3 +109,33 @@ mysql> select * from wp_options where option_name IN ('siteurl', 'home');
 </pre>
 
 You must append <code>/wp</code> after siteurl in order to make the site work well.
+
+## The Result
+
+The final project structure looks like this:
+
+<pre>
+|--src
+|--releases
+|--[current] -> /home/example/releases/example_last_release
+|--shared
+|------content
+|----------uploads
+|------wp
+|----------wp--admin
+|----------wp--content
+|----------wp--includes
+|----------...
+|----------[wp-config.php] -> /home/example/current/wp-config.php
+|----------...
+|--build.properties
+|--[build.xml] -> /home/ndeploy/current/build.xml
+</pre>
+
+You can also use wp-cli:
+
+<pre>
+example@server:~$ cd current/wp
+example@server:~/current/wp$ wp core version
+3.8
+</pre>

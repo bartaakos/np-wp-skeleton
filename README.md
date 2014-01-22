@@ -122,9 +122,9 @@ The final project structure looks like this:
 |------content
 |----------uploads
 |------wp
-|----------wp--admin
-|----------wp--content
-|----------wp--includes
+|----------wp-admin
+|----------wp-content
+|----------wp-includes
 |----------...
 |----------[wp-config.php] -> /home/example/current/wp-config.php
 |----------...

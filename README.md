@@ -128,6 +128,7 @@ The final project structure looks like this:
 |----------...
 |----------[wp-config.php] -> /home/example/current/wp-config.php
 |----------...
+|------local-config.php
 |--build.properties
 |--[build.xml] -> /home/ndeploy/current/build.xml
 </pre>
